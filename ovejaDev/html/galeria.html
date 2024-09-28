@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<!--*etiquetas meta-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="title" content="La Oveja Feliz">
+		<meta name="description"
+			content="Esta es mi presentacion hecha con una pagina web, no es una maravilla pero espero que me conozcan mas">
+		<meta name="keywords" content="oveja, presentacion, diseño">
+		<meta name="author" content="Nombre del autor">
+		<title>La Oveja Feliz</title><!--*titulo-->
+		<!--*likns-->
+		<link rel="icon" href="../src/img/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="../css/styles.css">
+		<script src="../js/scripts.js"></script>
+	</head>
+
+	<body>
+		<header class="header no-margin">
+			<div class="topbar container no-margin">
+				<div class="logo">
+					<a href="../index.html">
+						<h1 class="logo__text">Oveja</h1>
+					</a>
+				</div>
+				<nav class="navbar">
+					<a href="galeria.html" class="navbar__link navbar__link--select">Galeria</a>
+					<a href="codigo.html" class="navbar__link">Sitios</a>
+					<a href="recursos.html" class="navbar__link">Recursos</a>
+					<a href="contacto.html" class="navbar__link">Contacto</a>
+				</nav>
+			</div>
+		</header>
+
+		<main class="galery container">
+			<h1 class="galery__title no-margin">Mi Galeria</h1>
+			<img id="mainImage" class="galery__main" src="../src/images/Lynx-Concept.jpg" alt="main-img">
+			<div class="mini__contain">
+				<img class="mini__img" src="../src/images/Lynx-Concept.jpg" alt="mini-img-1"
+					onclick="changeImage('../src/images/Lynx-Concept.jpg')">
+				<img class="mini__img" src="../src/images/Chica-Amarilla.jpg" alt="mini-img-9"
+					onclick="changeImage('../src/images/Chica-Amarilla.jpg')">
+				<img class="mini__img" src="../src/images/Grand-Master-Concept.jpg" alt="mini-img-3"
+					onclick="changeImage('../src/images/Grand-Master-Concept.jpg')">
+				<img class="mini__img" src="../src/images/Darth-Vader-Recreate.jpg" alt="mini-img-4"
+					onclick="changeImage('../src/images/Darth-Vader-Recreate.jpg')">
+				<img class="mini__img" src="../src/images/Kindred_Splash_Replica.jpg" alt="mini-img-8"
+					onclick="changeImage('../src/images/Kindred_Splash_Replica.jpg')">
+				<img class="mini__img" src="../src/images/Flare-Concept-1.jpg" alt="mini-img-2"
+					onclick="changeImage('../src/images/Flare-Concept-1.jpg')">
+				<img class="mini__img" src="../src/images/Color-Exp.jpg" alt="mini-img-5"
+					onclick="changeImage('../src/images/Color-Exp.jpg')">
+				<img class="mini__img" src="../src/images/Llermu-01.jpg" alt="mini-img-6"
+					onclick="changeImage('../src/images/Llermu-01.jpg')">
+				<img class="mini__img" src="../src/images/Llermu-02.jpg" alt="mini-img-7"
+					onclick="changeImage('../src/images/Llermu-02.jpg')">
+				<img class="mini__img" src="../src/images/Art-Challenge.jpg" alt="mini-img-8"
+					onclick="changeImage('../src/images/Art-Challenge.jpg')">
+			</div>
+		</main>
+
+		<section class="art">
+			<h1 class="art__title">Mi Arte</h1>
+			<div class="art__contain container">
+				<div class="art__content">
+					<h3 class="art__content--tilte">Estilo</h3>
+					<img src="../src/icons/tinta.png" alt="mi-estilo" class="art__icon">
+					<p class="art__text">Mi estilo de dibujo digital está profundamente inspirado en mis primeras experiencias
+						dibujando en papel. Siempre me ha fascinado el efecto único que genera la tinta en una pluma fuente, y he
+						llevado ese mismo enfoque a mis creaciones digitales. A través de trazos fluidos y texturas similares, busco
+						replicar esa sensación orgánica y auténtica que aporta la tinta al papel, manteniendo la esencia de mis
+						raíces tradicionales en el mundo digital.</p>
+				</div><!--seccion art-content-->
+				<div class="art__content">
+					<h3 class="art__content--tilte">Objetivo</h3>
+					<img src="../src/icons/lupa.png" alt="objetivo" class="art__icon">
+					<p class="art__text">El objetivo de mi arte digital es demostrar que es posible crear obras interesantes
+						utilizando herramientas simples. Creo firmemente que la creatividad y la técnica son lo más importante, y
+						que no se necesitan herramientas complejas para obtener excelentes resultados. Mi enfoque se centra en sacar
+						el máximo provecho de lo básico, mostrando que con dedicación y visión, cualquier herramienta puede ser una
+						vía para expresar arte.</p>
+				</div><!--seccion art-content-->
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__cont container">
+				<div class="footer__box">
+					<h3 class="footer__title">Redes</h3>
+					<ul class="footer__list">
+						<li class="footer__element">
+							<a href="https://github.com/LaOvejaFeliz" class="footer__link">GitHub</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://x.com/OvejaFelih" class="footer__link">Twitter</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.instagram.com/felizlaoveja/" class="footer__link">Instagram</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.facebook.com/profile.php?id=100082947524716" class="footer__link">Facebook</a>
+						</li>
+					</ul>
+				</div><!--footer__box-->
+				<div class="footer__box">
+					<h3 class="footer__title">Creditos</h3>
+					<ul class="footer__list">
+						<li class="footer__element">
+							<a href="https://inkinesss.tumblr.com/" class="footer__link">Inkinesss</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.deviantart.com/5onoart/" class="footer__link">5oNoArt</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.flaticon.es/autores/freepik" class="footer__link">FreePik</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.pinterest.jp/pin/686587905712149093/" class="footer__link">MimiViper</a>
+						</li>
+					</ul>
+				</div><!--footer__box-->
+				<div class="footer__box">
+					<h3 class="footer__title">Devs</h3>
+					<ul class="footer__list">
+						<li class="footer__element">
+							<a href="#" class="footer__link">LaOvejaFeliz</a>
+						</li>
+						<li class="footer__element">
+							<a href="#" class="footer__link">devAura</a>
+						</li>
+					</ul><!--footer__box-->
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+</html>

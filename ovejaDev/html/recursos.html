@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<!--*etiquetas meta-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="title" content="La Oveja Feliz">
+		<meta name="description"
+			content="Esta es mi presentacion hecha con una pagina web, no es una maravilla pero espero que me conozcan mas">
+		<meta name="keywords" content="oveja, presentacion, diseño">
+		<meta name="author" content="Nombre del autor">
+		<title>La Oveja Feliz</title><!--*titulo-->
+		<!--*likns-->
+		<link rel="icon" href="../src/img/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="../css/styles.css">
+	</head>
+
+	<body>
+		<header class="header no-margin">
+			<div class="topbar container no-margin">
+				<div class="logo">
+					<a href="../index.html">
+						<h1 class="logo__text">Oveja</h1>
+					</a>
+				</div>
+				<nav class="navbar">
+					<a href="galeria.html" class="navbar__link">Galeria</a>
+					<a href="codigo.html" class="navbar__link">Sitios</a>
+					<a href="recursos.html" class="navbar__link navbar__link--select">Recursos</a>
+					<a href="contacto.html" class="navbar__link">Contacto</a>
+				</nav>
+			</div>
+		</header>
+
+		<main class="container resources">
+			<h1 class="resources__title">Recursos</h1>
+			<div class="resources__main">
+				<p class="resources__text">En esta página encontrarás recursos descargables para artistas que están comenzando
+					su camino. Desde guías de dibujo hasta plantillas y ejercicios, mi objetivo es ayudarte a desarrollar tus
+					habilidades artísticas paso a paso. Estos recursos están diseñados para que puedas explorar diferentes
+					técnicas y estilos, mejorando con cada práctica.</p>
+				<p class="resources__text">También encontrarás recursos enfocados en HTML y CSS, ideales para desarrolladores
+					novatos. Proveeré plantillas, ejemplos de código y herramientas útiles para que puedas crear páginas web de
+					manera sencilla y efectiva. Estos materiales te ayudarán a dar tus primeros pasos en el mundo del desarrollo
+					web, facilitando tu aprendizaje.</p>
+				<img src="../src/img/flare-concept.png" alt="flare-concept" class="resources__img">
+			</div>
+		</main>
+
+		<section class="dl container">
+			<div class="dl__filter">
+				<h1 class="dl__title">Descargas</h1>
+				<p class="dl__text">A continuación, encontrarás una selección de contenidos descargables diseñados para ayudarte
+					a mejorar en tus proyectos creativos y de desarrollo. Estos recursos están disponibles para que puedas
+					explorar, aprender y aplicar nuevas técnicas tanto en arte como en programación. ¡No dudes en descargarlos y
+					utilizarlos en tus propios proyectos!</p>
+				<img class="dl__icon" src="../src/icons/file.png" alt="">
+				<h3>Guia de Colores</h3>
+				<div>
+					<button class="dl__btn1 btn-expl">Copiar Codigo</button>
+					<button class="dl__btn2 btn-expl">Descargar Imagen</button>
+					<button class="dl__btn3 btn-expl">Descargar Archivo</button>
+				</div>
+				<div class="dl__grid">
+
+					<div class="dl__cont">
+						<h3 class="dl__name">Normalize Oveja</h3>
+						<p class="dl__description">Una version moderna y sin errores de normalize</p>
+						<div class="img__contain">
+							<img src="../src/icons/css.png" alt="css" class="dl__img">
+						</div>
+						<a href="../src/downloads/normalize.css" download="normalize-oveja.css" class="dl__button dl__btn3">Descargar</a>
+					</div><!--dl__cont-->
+
+					<div class="dl__cont contenedor">
+						<h3 class="dl__name">Media Querie</h3>
+						<p class="dl__description">Snippet para crear Media Queries de manera rapida y facil</p>
+						<img src="../src/img/media_querie.png" alt="snippet1" class="dl__img">
+						<div class="texto-oculto" style="display: none;">
+							"crea un media querie": {
+								"prefix": "mq",
+								"body": [
+									"@media (min-width: $1) {",
+									"  $2",
+									"}"
+								],
+								"description": "Crea un media query en CSS"
+							}
+						</div>
+						<button class="copiar-texto dl__button dl__btn1">Copiar texto</button>
+					</div><!--dl__cont-->
+
+				</div>
+			</div>
+		</section>
+
+
+
+		<footer class="footer">
+			<div class="footer__cont container">
+				<div class="footer__box">
+					<h3 class="footer__title">Redes</h3>
+					<ul class="footer__list">
+						<li class="footer__element">
+							<a href="https://github.com/LaOvejaFeliz" class="footer__link">GitHub</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://x.com/OvejaFelih" class="footer__link">Twitter</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.instagram.com/felizlaoveja/" class="footer__link">Instagram</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.facebook.com/profile.php?id=100082947524716" class="footer__link">Facebook</a>
+						</li>
+					</ul>
+				</div><!--footer__box-->
+				<div class="footer__box">
+					<h3 class="footer__title">Creditos</h3>
+					<ul class="footer__list">
+						<li class="footer__element">
+							<a href="https://inkinesss.tumblr.com/" class="footer__link">Inkinesss</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.deviantart.com/5onoart/" class="footer__link">5oNoArt</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.flaticon.es/autores/freepik" class="footer__link">FreePik</a>
+						</li>
+						<li class="footer__element">
+							<a href="https://www.pinterest.jp/pin/686587905712149093/" class="footer__link">MimiViper</a>
+						</li>
+					</ul>
+				</div><!--footer__box-->
+				<div class="footer__box">
+					<h3 class="footer__title">Devs</h3>
+					<ul class="footer__list">
+						<li class="footer__element">
+							<a href="#" class="footer__link">LaOvejaFeliz</a>
+						</li>
+						<li class="footer__element">
+							<a href="#" class="footer__link">devAura</a>
+						</li>
+					</ul><!--footer__box-->
+				</div>
+			</div>
+		</footer>
+
+
+		<script src="../js/scripts.js"></script>
+	</body>
+
+</html>
